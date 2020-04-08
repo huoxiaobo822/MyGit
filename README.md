@@ -1,0 +1,1 @@
+这个一个基于springboot项目+coap协议的简单验证demo，项目打包过程： mvn clean package  启动项目可以直接在启动类Application main方法直接启动，项目启动以后可以访问地址l27.0.0.1:8081访问项目，然后在test包下，先启动HelloCoapService服务端，然后在getClient客户端启动，看打印台会看到日志打印，以及服务端的数据变化
